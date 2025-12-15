@@ -13,7 +13,7 @@ jobs:
   build-push-and-update-site:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: ghcr.io/samuelbonillabaquero/mi-web-app
+      IMAGE_NAME: ghcr.io\/samuelbonillabaquero\/mi-web-app:latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
